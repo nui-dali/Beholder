@@ -3,7 +3,7 @@
 ## Install with Private Feed
 
 Add this feed to Your VS Extension private gallery.
-* https://nui-dali.github.io/Beholder//gallery/feed.xml
+* https://nui-dali.github.io/Beholder/gallery/feed.xml
 
 
 ![extension setup](docs/extension_setup.png)
