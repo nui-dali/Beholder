@@ -1,1 +1,56 @@
-Index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="github-pandoc.css">
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="beholder">Beholder</h1>
+<p>NUI hotreloading on Tizen</p>
+<p><a href="https://github.sec.samsung.net/dotnet/Beholder">Project Site</a></p>
+<p><img src="screenshot.gif" alt=""></p>
+<h1 id="install-with-private-feed">Install with Private Feed</h1>
+<p>Add this feed to Your VS Extension private gallery.</p>
+<ul>
+<li><a href="https://nui-dali.github.io/Beholder/gallery/feed.xml">https://nui-dali.github.io/Beholder/gallery/feed.xml</a></li>
+</ul>
+<p><img src="extension_setup.png" alt="extension setup"></p>
+<h2 id="to-add-a-private-gallery-to-extensions-and-updates">To add a private gallery to Extensions and Updates</h2>
+<ol>
+<li>On the menu bar, choose <strong>Tools &gt; Options</strong>.</li>
+<li>In the <strong>Environment</strong> node, select <strong>Extensions and Updates</strong>.</li>
+<li>Choose the <strong>Add</strong> button.</li>
+<li>In the <strong>Name</strong> field, enter a name for the Beholder.</li>
+<li>In the <strong>URL</strong> field, enter the URL.</li>
+</ol>
+<h2 id="install-extensions-from-a-private-gallery">Install extensions from a private gallery</h2>
+<p><img src="extension_install.png" alt="extension setup"></p>
+<p>To search for and install extensions from a private gallery</p>
+<ol>
+<li>On the menu bar, choose <strong>Tools &gt; Extensions and Updates</strong>.</li>
+<li>In the left pane, select <strong>Online Extensions</strong>, and then select <strong>Beholder</strong>.</li>
+<li>In the right pane, select an <strong>Tizen.NUI.Hotreloading</strong>, and then choose the <strong>Download</strong> button.</li>
+</ol>
+<p>You can learn more about how to install your personal gallery in <a href="https://docs.microsoft.com/ko-kr/visualstudio/extensibility/private-galleries?view=vs-2019">this MS article</a>.</p>
+<h1 id="how-to-use-it">How to Use it</h1>
+<p><img src="menu.png" alt="Beholder Menu"></p>
+<ol>
+<li>Open your NUI project.</li>
+<li>On the menu bar, choose <strong>Tools &gt; Enable Beholder</strong>.</li>
+<li>On the menu bar, choose <strong>Debug &gt; Run without Debug</strong>.</li>
+<li>Open and Edit the xaml file</li>
+<li>Save the xaml file</li>
+</ol>
+<p>Now beholder is still in alpha test, you can see more information in the output window of Visual Studio.</p>
+<p><img src="output.png" alt="Beholder Output"></p>
+<h1 id="known-issue">Known Issue</h1>
+<p>There is a delay of several seconds during the first hotreloading.</p>
+</body>
+</html>

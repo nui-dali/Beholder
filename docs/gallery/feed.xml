@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>VSIX Gallery</title>
+  <id>5a7c2525-ddd8-4c44-b2e3-f57ba01a0d81</id>
+  <updated>2021-09-15T07:58:00Z</updated>
+  <subtitle>Add this feed to Visual Studio's extension manager from Tools -&gt; Options -&gt; Environment -&gt; Extensions and Updates</subtitle>
+  <link rel="alternate" href="feed.xml" />
+  <entry>
+    <id>VSExtension.cbc95ad2-d541-45f9-b51b-3043b15828be</id>
+    <title type="text">Tizen.NUI.Hotreloading</title>
+    <link rel="alternate" href="Beholder.vsix" />
+    <summary type="text">Tizen NUI Hotreloading</summary>
+    <published>2021-09-15T07:58:00Z</published>
+    <updated>2021-09-15T07:58:00Z</updated>
+    <author>
+      <name>비오 이</name>
+    </author>
+    <content type="application/octet-stream" src="https://nui-dali.github.io/Beholder/gallery/Beholder.vsix" />
+<Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/developer/vsx-syndication-schema/2010">
+<Id>VSExtension.cbc95ad2-d541-45f9-b51b-3043b15828be</Id><Version>1.4</Version><References />
+<Rating xsi:nil="true" />
+<RatingCount xsi:nil="true" />
+<DownloadCount xsi:nil="true" />
+</Vsix></entry>
+</feed>
